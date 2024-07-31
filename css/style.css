@@ -116,6 +116,15 @@ footer a{
     padding:3px;
 }
 
+/* regole per bonus.html */
+
+
+video{
+    margin-top: 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(44, 41, 41, 0);
+}
+
 
 
 
