@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link font-awesome -->
     <link
@@ -16,84 +17,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet" />
     <!--mio link css -->
-    <link rel="stylesheet" href="./css/assets.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./assets/css/assets.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>FE-S1-L3-Esercizio</title>
   </head>
-  <body>
-    <header>
-      <section>
-        <img src="./assets/logo.png" alt="logo.png" />
-        <hr />
-        <p>part of <span>A SIMPLY FABULOUS THANKSGIVING</span></p>
-      </section>
-      <section>
-        <h1>
-          Focaccia with Caramelized Onions,
-          <span>Cranberries, and Brie</span>
-        </h1>
-      </section>
-    </header>
 
+  <body>
+    <!-- <div class="container"> -->
+    <header>
+      <img id="logo" src="./assets/logo.png" />
+      <div>
+        <span>Part of <strong>A SIMPLY FABULOUS THANKSGIVING</strong></span>
+      </div>
+    </header>
     <main>
-      <section>
+      <article>
+        <h1>Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
         <p>
-          Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
-          <span> cranberries, and creamy brie. it will become your new favorite holiday starter! </span>
+          Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart cranberries, and creamy brie. It will become your
+          new favorite holiday starter!
         </p>
 
-        <img src="./assets/focaccia.png" alt="img.png" />
+        <video width="100%" height="360" controls poster="./assets/focaccia.png">
+          <source src="./assets/Focaccia di cipolle caramellate.mp4" type="video/mp4" />
+          Il tuo browser non supporta il tag video.
+        </video>
 
-        <div>
-          <p>Image: Sally Vegas</p>
+        <span class="author">Image: Sally Vegas</span>
+        <div class="featured">
+          <span>FEATURED IN:</span>
+          <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
         </div>
+        <section class="ingredients">
+          <div class="lists-start">
+            <h2>Ingredients</h2>
+          </div>
 
-        <h5>FEATURED IN:</h5>
-        <a href="">Fresh Cramberry Recipes That Go Beyond Sauce</a>
-
-        <section>
-          <h3>Ingredients</h3>
           <h4>For the focaccia:</h4>
+
           <ul>
             <li>4 cups (500g) all-purpose flour</li>
-            <li>11/2 teaspoons instant yeast</li>
-            <li>11/2 teaspoons salt</li>
-            <li>13/4 cups (350g) lukewearn water</li>
+            <li>1 1/2 teaspoons instant yeast</li>
+            <li>1 1/2 teaspoons salt</li>
+            <li>1 3/4 cups (350g) lukewarm water</li>
             <li>1/4 cup extra virgin olive oil, plus more for the pan</li>
           </ul>
 
           <h4>For the topping:</h4>
+
           <ul>
-            <li>3 medium yellow onions, thinly sileed</li>
+            <li>3 medium yellow onions, thinly sliced</li>
             <li>1 tablespoon balsamic vinegar</li>
             <li>1-2 tablespoons olive oil, for brushing on top</li>
-            <li>
-              10 ounces bie, cut into cubes(scrape rind off whith a paring knife if desired, though it's not
-              <span>necessary)</span>
-            </li>
-            <li>11/2 cups fresh or frozen cranberries</li>
+            <li>10 ounces brie, cut into cubes (scrape rind off with a paring knife if desired, though it’s not necessary)</li>
+            <li>1 1/2 cups fresh or frozen cranberries</li>
           </ul>
         </section>
 
-        <h3>Methd</h3>
-        <hr />
-
-        <ol>
-          <li>
-            <h4>Make the focaccia dough</h4>
-            <p>
-              In a medium-sized mixing bowl, or in a stand mixer whit a paddle attachment, mix togheter all
-              <span>the dough ingredients until the flour is fully abdorbed. You don't need to actually knead the</span>
-              <span>dough, though I sometimes knead it a few times in the bowl when mixing by hand to incorporate</span>
-              <span>the last of the flour</span>
-            </p>
-          </li>
-        </ol>
-      </section>
+        <aside>
+          <h2>Method</h2>
+          <ol>
+            <li>
+              <p class="strong"><strong>Make the focaccia dough</strong></p>
+              <p>
+                In a medium-sized mixing bowl, or in a stand mixer with a paddle attachment, mix together all the dough ingredients until the flour is fully
+                absorbed. You don't need to actually knead the dough, though I sometimes knead it a few times in the bowl when mixing by hand to incorporate the
+                last of the flour...
+              </p>
+            </li>
+          </ol>
+          <p>
+            Read more on
+            <a href="https://www.simplyrecipes.com/recipes/focaccia_with_caramelized_onions_cranberries_and_brie/" title="naviga su Simply">Simply recipes</a>
+          </p>
+        </aside>
+      </article>
     </main>
-
-    <footer>
-      <p>Read more on<a href="http://google.it">Simply recipes</a></p>
-    </footer>
+    <!-- </div> -->
   </body>
 </html>
